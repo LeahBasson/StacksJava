@@ -14,11 +14,11 @@ public class StacksExample {
         fruit.push("Orange");
         
         // 3. peek() - View the top element without removing it
-        System.out.println("Top element: " + fruit.peek()); // Output: Cherry
+        System.out.println("Top element: " + fruit.peek()); // Output: Orange
 
         // 4. pop() - Remove and return the top element
         String removed = fruit.pop();
-        System.out.println("Popped: " + removed);           // Output: Cherry
+        System.out.println("Popped: " + removed);           // Output: Orange
 
         // 5. empty() - Check if the stack is empty
         System.out.println("Is empty? " + fruit.empty());    // Output: false
