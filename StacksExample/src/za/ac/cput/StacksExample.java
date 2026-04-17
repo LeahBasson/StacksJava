@@ -1,5 +1,5 @@
 
-package stacksexample;
+package za.ac.cput;
 
 import java.util.Stack;
 

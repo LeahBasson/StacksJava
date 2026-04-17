@@ -1,5 +1,5 @@
 
-package stackspractice;
+package za.ac.cput;
 
 
 public class RunStacksPractice {
