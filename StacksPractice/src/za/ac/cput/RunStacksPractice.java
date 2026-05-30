@@ -6,9 +6,6 @@ public class RunStacksPractice {
 
     
     public static void main(String[] args) {
-        // stacks with arrays
-        // Stack class containing stack creation using an array
-        // Stack methods in stack class aswell
         
         StackClass aStack = new StackClass();
         
@@ -24,6 +21,9 @@ public class RunStacksPractice {
         
         System.out.println("\nStack size: " + aStack.size());
         System.out.println("Peek: " + aStack.peek());
+        System.out.println("\nElement popped: " + aStack.pop());
+        System.out.println("\nElement popped: " + aStack.pop());
+        System.out.println("isEmpty: " + aStack.isEmpty());
         
         System.out.println("-----------------------------------");
         

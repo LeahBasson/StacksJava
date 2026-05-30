@@ -14,7 +14,7 @@ public class RunStacksLinkedList {
         linkedlist.print();
         
         System.out.println("---- Peek into stacked linked list ----");
-        System.out.println("\nHead of stacked linked list" + linkedlist.peek());
+        System.out.println("\nHead of stacked linked list: " + linkedlist.peek());
         
         for(int i = 1; i <= 5; i++){
             System.out.println("popped: " + linkedlist.pop());
